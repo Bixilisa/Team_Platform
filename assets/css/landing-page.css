@@ -1745,7 +1745,7 @@ h4.header-text {
   color: rgb(14, 142, 181);
 }
 
-body.bg {
+.bg {
   background: url(../img/team_bg.png) ;
   background-size: cover;
 }
