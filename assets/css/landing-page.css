@@ -1734,3 +1734,27 @@ h4.header-text {
   background: url(../img/team_bg.png) ;
   background-size: cover;
 }
+
+/*Responsive*/
+
+@media screen and (max-width:990px) {
+  .col-md-6 {
+    width: 100%;
+}
+.landing-page .section-presentation {
+  min-height: auto;
+}
+.landing-page .section-presentation .description {
+  padding: 0px 5px 0;
+}
+.landing-page .section-no-padding .parallax .info .btn-lg {
+  margin-top: 30px;
+  padding: 14px 30px;
+}
+}
+
+@media screen and (max-width:800px) {
+  .landing-page .section-no-padding .parallax .info {
+    top:70px;
+  }
+}
